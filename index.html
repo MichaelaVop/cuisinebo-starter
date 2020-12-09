@@ -7,26 +7,25 @@
         <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
         <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="assets/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>Cuisinebo</title>
     </head>
     <body>
         <header>
-            <nav>
-                <div class="row">
-                    <img src="assets/img/logo-white.png" alt="Cuisinebo logo" class="logo">
-                    <img src="assets/img/logo.png" alt="Cuisinebo logo" class="logo-black">
-                    <ul class="main-nav js--main-nav">
-                        <li><a href="#features">Food delivery</a></li>
-                        <li><a href="#works">How it works</a></li>
-                        <li><a href="#cities">Our cities</a></li>
-                        <li><a href="#plans">Sign up</a></li>
+            <nav class="navbar">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo-white.png" alt="Cuisinebo logo" class="logo" width="50" height="50">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#features">Food delivery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#works">How it works</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cities">Our cities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#plans">Sign up</a></li>
                     </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-                </div>
             </nav>
+
             <div class="hero-text-box">
                 <h1>I am not a glutton --<br>I am an explorer of food.</h1>
                 <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
@@ -36,14 +35,14 @@
         </header>
         
         <section class="section-features js--section-features" id="features">
-            <div class="row">
+            <div class="row pt-5">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">
                     Hello, we're Cuisinebo, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
                 </p>
             </div>
             
-            <div class="row js--wp-1">
+            <div class="row pb-5">
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Up to 365 days/year</h3>
@@ -75,7 +74,7 @@
             </div>   
         </section>
         
-        <section class="section-meals">
+        <section class="section-meals row">
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meal-photo">
@@ -128,12 +127,12 @@
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
             <div class="row">
-                <div class="col span-1-of-2 steps-box">
-                    <img src="assets/img/app-iPhone.png" alt="Cuisinebo app on iPhone" class="app-screen js--wp-2">
+                <div class="col span-1-of-2 steps-box" id="phone-photo">
+                    <img src="assets/img/app-iPhone.png" alt="Cuisinebo app on iPhone" class="app-screen js--wp-2" width="120">
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step clearfix">
-                        <div>1</div>
+                    <div>1</div>
                         <p>Choose the subscription plan that best fits your needs and sign up today.</p>
                     </div>
                     <div class="works-step clearfix">
@@ -146,7 +145,7 @@
                     </div>
                     
                     <a href="#" class="btn-app"><img src="assets/img/download-app.svg" alt="App Store Button"></a>
-                    <a href="#" class="btn-app"><img src="assets/img/download-app-android.png" alt="Play Store Button"></a>
+                    <a href="#" class="btn-app"><img src="assets/img/download-app-android.png" alt="Play Store Button" ></a>
                 </div>
             </div>
         </section>
@@ -161,11 +160,11 @@
                     <h3>Lisbon</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
-                        1600+ happy eaters
+                        <p>1600+ happy eaters</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        60+ top chefs
+                        <p>60+ top chefs</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
@@ -177,11 +176,11 @@
                     <h3>San Francisco</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
-                        3700+ happy eaters
+                        <p>3700+ happy eaters</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        160+ top chefs
+                        <p>160+ top chefs</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
@@ -193,11 +192,11 @@
                     <h3>Berlin</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
-                        2300+ happy eaters
+                        <p>2300+ happy eaters</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        110+ top chefs
+                        <p>110+ top chefs</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
@@ -209,11 +208,11 @@
                     <h3>London</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
-                        1200+ happy eaters
+                        <p>1200+ happy eaters</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-star icon-small"></i>
-                        50+ top chefs
+                        <p>50+ top chefs</p>
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter icon-small"></i>
@@ -230,20 +229,20 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
-                    <blockquote>
+                    <blockquote class="quote">
                         Cuisinebo is just awesome! I just launched a startup which leaves me with no time for cooking, so Cuisinebo is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
                         <cite><img src="assets/img/customer-1.jpg">Alberto Duncan</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
-                    <blockquote>
+                    <blockquote class="quote">
                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
                         <cite><img src="assets/img/customer-2.jpg">Joana Silva</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
-                    <blockquote>
-I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Cuisinebo. Best food delivery service in the Bay Area. Keep up the great work!
+                    <blockquote class="quote">
+                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Cuisinebo. Best food delivery service in the Bay Area. Keep up the great work!
                     <cite><img src="assets/img/customer-3.jpg">Milton Chapman</cite>
                     </blockquote>
                 </div>
@@ -271,7 +270,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
-                        <div>
+                        <div id="signup-btn">
                             <a href="#" class="btn btn-full">Sign up now</a>
                         </div>
                     </div>
@@ -291,7 +290,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
-                        <div>
+                        <div id="signup-btn">
                             <a href="#" class="btn btn-ghost">Sign up now</a>
                         </div>
                     </div>
@@ -311,7 +310,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
-                        <div>
+                        <div id="signup-btn">
                             <a href="#" class="btn btn-ghost">Sign up now</a>
                         </div>
                     </div>
@@ -323,7 +322,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
-            <div class="row">
+            <div class="row" id="form-table">
                 <form method="post" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -374,8 +373,8 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                         <div class="col span-1-of-3">
                             <label>&nbsp;</label>
                         </div>
-                        <div class="col span-2-of-3">
-                            <input type="submit" value="Send it!">
+                        <div class="col span-2-of-3" id="send-align">
+                            <input id="sendit" type="submit" value="Send it!">
                         </div>
                     </div>
                     
@@ -414,7 +413,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                 </p>
             </div>
         </footer>
-        
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
